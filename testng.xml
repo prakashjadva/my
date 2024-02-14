@@ -13,6 +13,6 @@
        <class name="Test_cases.TS_005"/>
        <class name="Test_cases.TS_006"/>
       </classes>
-      </test> <!-- Test -->
+  </test> <!-- Test -->
   </suite> <!-- Suite -->
 
