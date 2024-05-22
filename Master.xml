@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Utilities.ExtentReportManager"></listener>
+</listeners>
+  <suite-files>
+        <suite-file path="C:\pbtest\Product_page_all_fields_verify.xml"/>
+        <suite-file path="C:\pbtest\nevigation_review_page.xml"/>
+        <suite-file path="C:\pbtest\proposer_nevigation_reviewpage.xml"/>
+        
+        <!-- Add more suite files as needed -->
+    </suite-files>
+
+    <!-- You can also include individual test classes if needed -->
+    <!--
+    <test name="Test1">
+        <classes>
+            <class name="com.example.TestClass1"/>
+            
+        </classes>
+    </test>
+    -->
+
+</suite>

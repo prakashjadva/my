@@ -3,10 +3,10 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="Test_cases.TS_006">
+      <class name="Test_Cases_journy.TS_095_doc_upload">
         <methods>
           <include name="quit"/>
-          <include name="verify_user_nevigate_on_review_page"/>
+          <include name="verify_doc_upload"/>
           <include name="setup"/>
         </methods>
       </class>

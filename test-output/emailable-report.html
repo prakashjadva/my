@@ -29,198 +29,28 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi_attn">5</td><td class="numi">120.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">61.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
-<tr><th colspan="4">Test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">Test_cases.TS_004<td><a href="#m1"><b>TC_014Mo_no_isEnabled_or_not</b>  </a></td><td class="numi">1</td><td class="numi">20047</td></tr>
-<tr class="failedeven"><td rowspan="4">Test_cases.TS_002<td><a href="#m2"><b>TC_002Certificate</b>  </a></td><td class="numi">1</td><td class="numi">2108</td></tr><tr class="failedeven"><td><a href="#m3"><b>TC_005Talk_to_anExpert</b>  </a></td><td class="numi">1</td><td class="numi">1117</td></tr><tr class="failedeven"><td><a href="#m4"><b>TC_003Brochure</b>  </a></td><td class="numi">1</td><td class="numi">2159</td></tr><tr class="failedeven"><td><a href="#m5"><b>TC_004BI</b>  </a></td><td class="numi">1</td><td class="numi">3141</td></tr>
-<tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">Test_cases.TS_004<td><a href="#m6"><b>TC_015Mail_id_isEnabled_or_not</b>  </a></td><td class="numi">1</td><td class="numi">11816</td></tr>
-<tr class="passedeven"><td rowspan="1">Test_cases.TS_006<td><a href="#m7"><b>verify_user_nevigate_on_review_page</b>  </a></td><td class="numi">1</td><td class="numi">45027</td></tr>
-<tr class="passedodd"><td rowspan="1">Test_cases.TS_004<td><a href="#m8"><b>TC_020RS_isEnabled_or_not</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr>
-<tr class="passedeven"><td rowspan="1">Test_cases.TS_005<td><a href="#m9"><b>TC_021_verify_KYP_section</b>  </a></td><td class="numi">1</td><td class="numi">10429</td></tr>
-<tr class="passedodd"><td rowspan="4">Test_cases.TS_004<td><a href="#m10"><b>TC_018WA_isEnabled_or_not</b>  </a></td><td class="numi">1</td><td class="numi">19</td></tr><tr class="passedodd"><td><a href="#m11"><b>TC_016IA_isEnabled_or_not</b>  </a></td><td class="numi">1</td><td class="numi">2032</td></tr><tr class="passedodd"><td><a href="#m12"><b>TC_017Pay_for_isEnabled_or_not</b>  </a></td><td class="numi">1</td><td class="numi">23</td></tr><tr class="passedodd"><td><a href="#m13"><b>TC_019Name_isEnabled_or_not</b>  </a></td><td class="numi">1</td><td class="numi">15</td></tr>
-<tr class="passedeven"><td rowspan="1">Test_cases.TS_001<td><a href="#m14"><b>Nevigaion_to_product_page</b>  </a></td><td class="numi">1</td><td class="numi">21425</td></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Test_Cases_journy.TS_095_doc_upload<td><a href="#m1"><b>verify_doc_upload</b>  </a></td><td class="numi">1</td><td class="numi">61289</td></tr>
 </table>
-<h1>Test</h1>
-<a id="m1"></a><h2>Test_cases.TS_004:TC_014Mo_no_isEnabled_or_not</h2>
+<h1>Default test</h1>
+<a id="m1"></a><h2>Test_Cases_journy.TS_095_doc_upload:verify_doc_upload</h2>
 <div style="padding-left:3em">
-<p>Expected condition failed: waiting for element to be clickable: By.id: mob (tried for 10 second(s) with 500 milliseconds interval)
+<p>Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id=&apos;btnCheckboxSelection&apos;] (tried for 50 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\PRAKAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60067/devtoo..., se:cdpVersion: 121.0.6167.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92aa6a0eafffe4990288c548eb64c26c</p>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\PRAKAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50624}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50624/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2080669e622900ce5fc9b454faef4c8</p>
 org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 <br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-<br/>at Page_object.product_page.Mobile(product_page.java:162)
-<br/>at Test_cases.TS_004.TC_014Mo_no_isEnabled_or_not(TS_004.java:13)
+<br/>at Page_object.journy_095_doc_upload.Submit_button(journy_095_doc_upload.java:45)
+<br/>at Test_Cases_journy.TS_095_doc_upload.verify_doc_upload(TS_095_doc_upload.java:25)
 <br/>26 lines not shown
 </div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m2"></a><h2>Test_cases.TS_002:TC_002Certificate</h2>
-<div style="padding-left:3em">
-<p>element click intercepted: Element &lt;img _ngcontent-ng-c715324662=&quot;&quot; src=&quot;https://tatauat.policybazaar.com/FPNBHI/images/web/arrowDown.svg&quot; alt=&quot;&quot;&gt; is not clickable at point (932, 28). Other element would receive the click: &lt;div _ngcontent-ng-c1136669716=&quot;&quot; id=&quot;animateTextBox&quot; class=&quot;animateTextBox&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=121.0.6167.85)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92aa6a0eafffe4990288c548eb64c26c, clickElement {id=307AEFC2D7AA5EE8405C8B0886FCE8EE_element_625}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\PRAKAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60067/devtoo..., se:cdpVersion: 121.0.6167.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (92aa6a0eafffe4990288c548eb64c26c)] -&gt; xpath: /html/body/app-root/body/app-layout/app-header/header/div[2]/div[1]/div[3]/img]
-Session ID: 92aa6a0eafffe4990288c548eb64c26c</p>
-java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-<br/>at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-<br/>at Page_object.product_page.Certificate(product_page.java:116)
-<br/>at Test_cases.TS_002.TC_002Certificate(TS_002.java:20)
-<br/>26 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m3"></a><h2>Test_cases.TS_002:TC_005Talk_to_anExpert</h2>
-<div style="padding-left:3em">
-<p>element click intercepted: Element &lt;a _ngcontent-ng-c715324662=&quot;&quot; class=&quot;talk-2-expert shakeAnimation&quot;&gt;...&lt;/a&gt; is not clickable at point (1272, 30). Other element would receive the click: &lt;div _ngcontent-ng-c1136669716=&quot;&quot; id=&quot;animateTextBox&quot; class=&quot;animateTextBox&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=121.0.6167.85)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92aa6a0eafffe4990288c548eb64c26c, clickElement {id=307AEFC2D7AA5EE8405C8B0886FCE8EE_element_593}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\PRAKAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60067/devtoo..., se:cdpVersion: 121.0.6167.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (92aa6a0eafffe4990288c548eb64c26c)] -&gt; xpath: /html/body/app-root/body/app-layout/app-header/header/div[2]/a[4]]
-Session ID: 92aa6a0eafffe4990288c548eb64c26c</p>
-java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-<br/>at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-<br/>at Page_object.product_page.Talk_to_an_Expert(product_page.java:129)
-<br/>at Test_cases.TS_002.TC_005Talk_to_anExpert(TS_002.java:45)
-<br/>26 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m4"></a><h2>Test_cases.TS_002:TC_003Brochure</h2>
-<div style="padding-left:3em">
-<p>element click intercepted: Element &lt;a _ngcontent-ng-c715324662=&quot;&quot; target=&quot;_blank&quot; class=&quot;download-link&quot;&gt;...&lt;/a&gt; is not clickable at point (1003, 30). Other element would receive the click: &lt;div _ngcontent-ng-c1136669716=&quot;&quot; id=&quot;animateTextBox&quot; class=&quot;animateTextBox&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=121.0.6167.85)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92aa6a0eafffe4990288c548eb64c26c, clickElement {id=307AEFC2D7AA5EE8405C8B0886FCE8EE_element_589}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\PRAKAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60067/devtoo..., se:cdpVersion: 121.0.6167.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (92aa6a0eafffe4990288c548eb64c26c)] -&gt; xpath: /html/body/app-root/body/app-layout/app-header/header/div[2]/a[2]]
-Session ID: 92aa6a0eafffe4990288c548eb64c26c</p>
-java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-<br/>at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-<br/>at Page_object.product_page.Brochure(product_page.java:124)
-<br/>at Test_cases.TS_002.TC_003Brochure(TS_002.java:29)
-<br/>26 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m5"></a><h2>Test_cases.TS_002:TC_004BI</h2>
-<div style="padding-left:3em">
-<p>element click intercepted: Element &lt;a _ngcontent-ng-c715324662=&quot;&quot; target=&quot;_blank&quot; class=&quot;download-link&quot;&gt;...&lt;/a&gt; is not clickable at point (1126, 30). Other element would receive the click: &lt;div _ngcontent-ng-c1136669716=&quot;&quot; id=&quot;animateTextBox&quot; class=&quot;animateTextBox&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=121.0.6167.85)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92aa6a0eafffe4990288c548eb64c26c, clickElement {id=307AEFC2D7AA5EE8405C8B0886FCE8EE_element_591}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.85, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\PRAKAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60067}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60067/devtoo..., se:cdpVersion: 121.0.6167.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (92aa6a0eafffe4990288c548eb64c26c)] -&gt; xpath: /html/body/app-root/body/app-layout/app-header/header/div[2]/a[3]]
-Session ID: 92aa6a0eafffe4990288c548eb64c26c</p>
-java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-<br/>at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-<br/>at Page_object.product_page.BI(product_page.java:134)
-<br/>at Test_cases.TS_002.TC_004BI(TS_002.java:38)
-<br/>26 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m6"></a><h2>Test_cases.TS_004:TC_015Mail_id_isEnabled_or_not</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m7"></a><h2>Test_cases.TS_006:verify_user_nevigate_on_review_page</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m8"></a><h2>Test_cases.TS_004:TC_020RS_isEnabled_or_not</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m9"></a><h2>Test_cases.TS_005:TC_021_verify_KYP_section</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m10"></a><h2>Test_cases.TS_004:TC_018WA_isEnabled_or_not</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m11"></a><h2>Test_cases.TS_004:TC_016IA_isEnabled_or_not</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m12"></a><h2>Test_cases.TS_004:TC_017Pay_for_isEnabled_or_not</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m13"></a><h2>Test_cases.TS_004:TC_019Name_isEnabled_or_not</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m14"></a><h2>Test_cases.TS_001:Nevigaion_to_product_page</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

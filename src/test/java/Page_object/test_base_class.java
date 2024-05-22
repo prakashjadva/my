@@ -10,7 +10,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 
@@ -26,10 +28,12 @@ public class test_base_class {
 		driver.get("https://investmentnewuat.policybazaar.com/prequote-ulip-lite");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
+		
 	}
 	@AfterSuite
 	public void quit() {
 		//driver.quit();
+	
 	}
 	public String captureScreen(String tname) {
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());

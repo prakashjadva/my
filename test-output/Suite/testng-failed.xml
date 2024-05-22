@@ -1,28 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="none" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="Utilities.ExtentReportManager"/>
-  </listeners>
   <test parallel="none" name="Test(failed)" preserve-order="false">
     <classes>
-      <class name="Test_cases.TS_001">
+      <class name="Test_cases.TS_006">
         <methods>
           <include name="quit"/>
+          <include name="verify_user_nevigate_on_review_page"/>
           <include name="setup"/>
         </methods>
       </class>
-      <class name="Test_cases.TS_004">
+      <class name="Test_Cases_journy.TS_094_fund_allocation">
         <methods>
-          <include name="TC_014Mo_no_isEnabled_or_not"/>
+          <include name="Verify_Fund_Allocation"/>
         </methods>
       </class>
-      <class name="Test_cases.TS_002">
+      <class name="Test_cases.TS_009_Payment">
         <methods>
-          <include name="TC_004BI"/>
-          <include name="TC_002Certificate"/>
-          <include name="TC_003Brochure"/>
-          <include name="TC_005Talk_to_anExpert"/>
+          <include name="payment_page"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_09_LA_Existing_Policies">
+        <methods>
+          <include name="Verify_LA_Existing_policy"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_01_Basic_Deatails">
+        <methods>
+          <include name="verify_basic_details"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_06_E_Insurance_Account">
+        <methods>
+          <include name="verify_E_Insurance_Account_Details"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_07_Bank_Details">
+        <methods>
+          <include name="Verify_bank_Details"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_02_Family_Details">
+        <methods>
+          <include name="Verify_family_details"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_05_Nominee_Details">
+        <methods>
+          <include name="verify_Nominee_Details"/>
+        </methods>
+      </class>
+      <class name="Test_cases.TS_001">
+        <methods>
+          <include name="Navigation_to_product_page"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_03_Contact_Details">
+        <methods>
+          <include name="Verify_Contact_Details"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_08_Lifeassured_general_info">
+        <methods>
+          <include name="Verify_LA_General_Info"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_04_Education_occupation_Details">
+        <methods>
+          <include name="verify_education_occupation"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_092_critical_info">
+        <methods>
+          <include name="Verify_Critical_info"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_095_doc_upload">
+        <methods>
+          <include name="verify_doc_upload"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_091_Family_History">
+        <methods>
+          <include name="Verify_Family_History"/>
+        </methods>
+      </class>
+      <class name="Test_Cases_journy.TS_093_fund_details">
+        <methods>
+          <include name="verify_Fund_Details"/>
         </methods>
       </class>
     </classes>

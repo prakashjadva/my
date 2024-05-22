@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Utilities.ExtentReportManager"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Test_cases.TS_01_Basic_Details"/>
+      <class name="TS_006_la_nevigation_on_review_page"/>
+      <class name="Test_cases.TS_009_Payment"/>
+      <class name="Test_Cases_journy.TS_01_Basic_Deatails"/>
+      <class name="Test_Cases_journy.TS_02_Family_Details"/>
+      <class name="Test_Cases_journy.TS_03_Contact_Details"/>
+      <class name="Test_Cases_journy.TS_04_Education_occupation_Details"/>
+      <class name="Test_Cases_journy.TS_05_Nominee_Details"/>
+      <class name="Test_Cases_journy.TS_06_E_Insurance_Account"/>
+      <class name="Test_Cases_journy.TS_07_Bank_Details"/>
+      <class name="Test_Cases_journy.TS_08_Lifeassured_general_info"/>
+      <class name="Test_Cases_journy.TS_09_LA_Existing_Policies"/>
+      <class name="Test_Cases_journy.TS_091_Family_History"/>
+      <class name="Test_Cases_journy.TS_092_critical_info"/>
+      <class name="Test_Cases_journy.TS_093_fund_details"/>
+      <class name="Test_Cases_journy.TS_094_fund_allocation"/>
+      <class name="Test_Cases_journy.TS_095_doc_upload"/>
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
